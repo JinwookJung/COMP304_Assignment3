@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/CanvasExample3/build/intermediates/res/merged/debug/layout/fragment_main.xml",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/CanvasExample3/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/CanvasExample3/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/CanvasExample3/src/main/res/layout/activity_main.xml"
+    }
+]

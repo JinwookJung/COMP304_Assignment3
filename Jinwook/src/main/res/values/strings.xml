@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">JinwookAssign3</string>
+    <string name="domino">Domino Pizza</string>
+    <string name="pizzaHut">Pizza Hut</string>
+    <string name="pizzaPizza">Pizza Pizza</string>
+    <string name="nextButton">Next</string>
+
+    <string name="pizzaType">Type</string>
+    <string name="neapolitan">Neapolitan</string>
+    <string name="deepDish">Deep Dish</string>
+    <string name="newYorkStyleType">New York-Style</string>
+
+    <string name="pizzaSize">Size</string>
+    <string name="pizzaSizeSmall">Small</string>
+    <string name="pizzaSizeMedium">Medium</string>
+    <string name="pizzaSizeLarge">Large</string>
+
+    <string name="pizzaTopping">Topping</string>
+    <string name="pizzaToppingPepperoni">Pepperoni</string>
+    <string name="pizzaToppingOnion">Onion</string>
+    <string name="pizzaToppingGarlic">Garlic</string>
+    <string name="pizzaToppingOlive">Olive</string>
+    <string name="pizzaToppingMushroom">Mushroom</string>
+    <string name="pizzaToppingPotato">Potato</string>
+
+    <string name="backButton">Back</string>
+    <string name="orderButton">Order</string>
+    <string name="nextButtonPizzaShopActivity">Next</string>
+
+    <string name="customerInfo">Customer Information</string>
+    <string name="customerName">Name</string>
+    <string name="customerCreditCard">Credit Card</string>
+    <string name="customerAddress">Address</string>
+
+    <string name="menuHelp">Help</string>
+    <string name="menuPizza">Pizza</string>
+    <string name="menuName">Jinwook</string>
+
+    <string name="checkoutButton">Check Out</string>
+
+
+
+</resources>

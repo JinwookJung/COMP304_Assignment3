@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+<!--select pizza type-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/pizzaType"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        style="@style/PizzaShopActivityLabel"
+         />
+
+    <RadioGroup
+        android:id="@+id/typeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        >
+
+        <RadioButton
+            android:id="@+id/neapolitanRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/neapolitan"
+            android:checked="false"
+            style="@style/PizzaShopActivityRadioButton"
+            />
+
+        <RadioButton
+            android:id="@+id/deepDishRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deepDish"
+            style="@style/PizzaShopActivityRadioButton"
+            />
+
+        <RadioButton
+            android:id="@+id/newYorkStyleTypeRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newYorkStyleType"
+            android:layout_gravity="center_horizontal"
+            style="@style/PizzaShopActivityRadioButton"/>
+
+    </RadioGroup>
+
+
+    <!--select pizza size-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaSize"
+        android:textSize="30dp"
+        android:layout_below="@+id/typeRadioGroup"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="39dp"
+        android:id="@+id/textView2"
+        style="@style/PizzaShopActivityLabel"/>
+
+    <RadioGroup
+        android:id="@+id/sizeRadioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal"
+        >
+
+
+        <RadioButton
+            android:id="@+id/smallRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pizzaSizeSmall"
+            android:checked="false"
+            style="@style/PizzaShopActivityRadioButton"
+            />
+
+        <RadioButton
+            android:id="@+id/mediumRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pizzaSizeMedium"
+            style="@style/PizzaShopActivityRadioButton"
+            />
+
+        <RadioButton
+            android:id="@+id/largeRadioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pizzaSizeLarge"
+            style="@style/PizzaShopActivityRadioButton"/>
+
+    </RadioGroup>
+
+
+    <!--select pizza topping-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaTopping"
+        android:textSize="30dp"
+        android:layout_below="@+id/sizeRadioGroup"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_marginTop="31dp"
+        android:id="@+id/textView3"
+        style="@style/PizzaShopActivityLabel"
+        />
+
+    <CheckBox
+        android:id="@+id/pepeperoniCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaToppingPepperoni"
+        android:layout_below="@+id/textView3"
+        android:layout_alignStart="@+id/oliveCheckBox"
+        style="@style/PizzaShopActivityRadioButton"/>
+
+    <CheckBox
+        android:id="@+id/onionCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaToppingOnion"
+        android:layout_alignTop="@+id/pepeperoniCheckBox"
+        android:layout_toEndOf="@+id/textView3"
+        style="@style/PizzaShopActivityRadioButton"/>
+
+    <CheckBox
+        android:id="@+id/garlicCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaToppingGarlic"
+        style="@style/PizzaShopActivityRadioButton"
+        android:layout_above="@+id/potatoCheckBox"
+        android:layout_toEndOf="@+id/sizeRadioGroup" />
+
+    <CheckBox
+        android:id="@+id/oliveCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaToppingOlive"
+        android:layout_below="@+id/pepeperoniCheckBox"
+        style="@style/PizzaShopActivityRadioButton"
+        android:layout_alignEnd="@+id/backButton" />
+
+    <CheckBox
+        android:id="@+id/mushroomCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaToppingMushroom"
+        android:layout_alignTop="@+id/oliveCheckBox"
+        android:layout_alignStart="@+id/onionCheckBox"
+        style="@style/PizzaShopActivityRadioButton"/>
+
+    <CheckBox
+        android:id="@+id/potatoCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pizzaToppingPotato"
+        style="@style/PizzaShopActivityRadioButton"
+        android:layout_alignTop="@+id/mushroomCheckBox"
+        android:layout_alignStart="@+id/garlicCheckBox" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:onClick="callIntent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/nextButtonPizzaShopActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nextButtonPizzaShopActivity"
+        android:layout_alignBottom="@+id/backButton"
+        android:layout_alignParentEnd="true"
+        android:onClick="callIntent2"/>
+
+    <ImageView
+        android:id="@+id/pizzaImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/backButton"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

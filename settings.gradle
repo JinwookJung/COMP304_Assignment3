@@ -1,0 +1,1 @@
+include ':app', ':FrameLayoutExample', ':TableLayout', ':LinearLayoutExample', ':spinner', ':radiobutton', ':Jinwook', ':ListView', ':CanvasExample3', ':LinearGradient', ':ScreenLayoutDetect', ':Fragments'

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Jinwook="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menuHelp"
+        android:title="@string/menuHelp"
+        Jinwook:showAsAction="never"
+        android:orderInCategory="1">
+
+    </item>
+
+    <item
+        android:id="@+id/menuPizza"
+        android:title="@string/menuPizza"
+        android:icon="@drawable/pizzahut"
+        Jinwook:showAsAction="always"
+        android:orderInCategory="1">
+    </item>
+
+    <item
+        android:id="@+id/menuName"
+        android:title="@string/menuName"
+        Jinwook:showAsAction="ifRoom"
+        android:orderInCategory="2">
+
+    </item>
+</menu>

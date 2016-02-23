@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/FrameLayoutExample/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/FrameLayoutExample/src/main/res/drawable-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/FrameLayoutExample/build/intermediates/res/merged/debug/drawable-hdpi-v4/red_oval.jpg",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/FrameLayoutExample/src/main/res/drawable-hdpi/red_oval.jpg"
+    },
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/FrameLayoutExample/build/intermediates/res/merged/debug/drawable-hdpi-v4/green_rect.jpg",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/FrameLayoutExample/src/main/res/drawable-hdpi/green_rect.jpg"
+    }
+]

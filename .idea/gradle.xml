@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/CanvasExample3" />
+            <option value="$PROJECT_DIR$/Fragments" />
+            <option value="$PROJECT_DIR$/FrameLayoutExample" />
+            <option value="$PROJECT_DIR$/Jinwook" />
+            <option value="$PROJECT_DIR$/LinearGradient" />
+            <option value="$PROJECT_DIR$/LinearLayoutExample" />
+            <option value="$PROJECT_DIR$/ListView" />
+            <option value="$PROJECT_DIR$/ScreenLayoutDetect" />
+            <option value="$PROJECT_DIR$/TableLayout" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/radiobutton" />
+            <option value="$PROJECT_DIR$/spinner" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

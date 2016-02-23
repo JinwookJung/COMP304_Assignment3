@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pizzaType"
+        android:id="@+id/typeTextView"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pizzaSize"
+        android:id="@+id/sizeTextView"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/typeTextView"
+        android:layout_alignEnd="@+id/typeTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pizzaTopping"
+        android:id="@+id/toppingTextView6"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/sizeTextView"
+        android:layout_alignStart="@+id/sizeTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/customerName"
+        android:id="@+id/cusNameTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/toppingTextView6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/customerCreditCard"
+        android:id="@+id/cusCreditTextView"
+        android:layout_marginTop="53dp"
+        android:layout_below="@+id/cusNameTextView"
+        android:layout_alignStart="@+id/cusNameTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/customerAddress"
+        android:id="@+id/cusAddressTextView"
+        android:layout_below="@+id/cusCreditTextView"
+        android:layout_alignStart="@+id/cusCreditTextView"
+        android:layout_marginTop="53dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/showType"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/cusCreditTextView"
+        android:layout_marginStart="57dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/showSize"
+        android:layout_alignTop="@+id/sizeTextView"
+        android:layout_alignStart="@+id/showType" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/showTopping"
+        android:layout_alignTop="@+id/toppingTextView6"
+        android:layout_alignStart="@+id/showSize" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/showName"
+        android:layout_alignTop="@+id/cusNameTextView"
+        android:layout_alignStart="@+id/showTopping" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/showCreditCard"
+        android:layout_alignTop="@+id/cusCreditTextView"
+        android:layout_alignStart="@+id/showName" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/showAddress"
+        android:layout_alignTop="@+id/cusAddressTextView"
+        android:layout_alignStart="@+id/showCreditCard" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkoutButton"
+        android:id="@+id/checkoutButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="callIntent4"/>
+</RelativeLayout>

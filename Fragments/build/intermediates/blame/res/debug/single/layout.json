@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/haki/Documents/Android/COMP304W16/Fragments/build/intermediates/res/merged/debug/layout/fragment2.xml",
+        "source": "/Users/haki/Documents/Android/COMP304W16/Fragments/src/main/res/layout/fragment2.xml"
+    },
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/Fragments/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/Fragments/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/Fragments/build/intermediates/res/merged/debug/layout/fragment2.xml",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/Fragments/src/main/res/layout/fragment2.xml"
+    },
+    {
+        "merged": "/Users/haki/Documents/Android/COMP304W16/Fragments/build/intermediates/res/merged/debug/layout/fragment1.xml",
+        "source": "/Users/haki/Documents/Android/COMP304W16/Fragments/src/main/res/layout/fragment1.xml"
+    },
+    {
+        "merged": "/Users/Jin/AndroidStudioProjects/MyApplication2/Fragments/build/intermediates/res/merged/debug/layout/fragment1.xml",
+        "source": "/Users/Jin/AndroidStudioProjects/MyApplication2/Fragments/src/main/res/layout/fragment1.xml"
+    },
+    {
+        "merged": "/Users/haki/Documents/Android/COMP304W16/Fragments/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/haki/Documents/Android/COMP304W16/Fragments/src/main/res/layout/activity_main.xml"
+    }
+]

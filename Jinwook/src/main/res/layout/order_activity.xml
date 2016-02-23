@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+
+    <TextView
+        android:id="@+id/customerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/customerInfo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        style="@style/OrderActivityLabel"
+        android:paddingLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/NameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/customerName"
+        android:layout_below="@+id/customerTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/CreditCardTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/customerCreditCard"
+        android:layout_below="@+id/NameTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/AddressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/customerAddress"
+        android:layout_below="@+id/CreditCardTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+
+        android:hint="Your Name"
+        android:layout_below="@+id/customerTextView"
+        android:layout_alignStart="@+id/creditCardEditText" />
+
+    <EditText
+        android:id="@+id/creditCardEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:maxLength="16"
+        android:hint="Credit Card Number"
+        android:layout_below="@+id/nameEditText"
+        android:layout_alignStart="@+id/addressEditText" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:layout_below="@+id/creditCardEditText"
+        android:layout_centerHorizontal="true"
+        android:hint="Your Address" />
+
+    <Button
+        android:id="@+id/orderActivityBackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backButton"
+        android:layout_alignBottom="@+id/orderButton"
+        android:layout_alignParentStart="true"
+        android:onClick="callIntent3"/>
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orderButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="callIntent3"/>
+
+
+    <TextView
+        android:id="@+id/typeResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pizzaType"
+        android:layout_below="@+id/addressEditText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/sizeResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pizzaSize"
+        android:layout_below="@+id/typeResultTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="44dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/toppingResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/pizzaTopping"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/sizeResultTextView"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"/>
+
+    <!--showing customer's selection-->
+    <TextView
+        android:id="@+id/showTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:layout_below="@+id/typeResultTextView"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/showSizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:layout_below="@+id/sizeResultTextView"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/showToppingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=""
+        android:layout_below="@+id/toppingResultTextView"
+        android:layout_alignParentStart="true"
+        android:paddingLeft="20dp"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>
